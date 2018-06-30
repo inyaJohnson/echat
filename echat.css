@@ -1,0 +1,105 @@
+
+/*eHome header*/
+
+#header{
+    background-color: black;
+    color: #f7f7f7;
+    height: 130px;
+}
+
+#title{
+
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+
+#login{
+    padding-top: 30px ;
+}
+
+#mantra{
+    font-size:0.2em;
+}
+
+/*eHome body*/
+
+#logo{
+margin-bottom: 20px;
+}
+
+
+#signUp{
+    margin: 5px;
+}
+
+
+#contentBody{
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.glyphicon, .fa{
+    font-size: 30px;
+}
+
+.others{
+    margin: 10px;
+}
+
+.other-text{
+    font-size:20px;
+    margin-left: 15px;
+}
+/*eHome footer*/
+
+#footer{
+    background-color: black;
+    color: #f7f7f7;
+    min-height: 100px;
+}
+
+@media(min-width: 992px){
+    #xs-footer{display: none;}
+}
+
+
+/*for xs and sm screen sizes*/
+
+@media(max-width :991px){
+    #md-screen-info{display: none;}
+    #header{
+        background-color: black;
+        color: #f7f7f7;
+        height: auto;
+    }
+
+    #title{
+
+        text-align: center;
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+
+    #login{
+        padding-top: 10px;
+    }
+
+
+    #mantra{
+        font-size:0.2em;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    #xs-footer{
+        background-color: black;
+        color: #f7f7f7;
+        min-height: 100px;
+
+    }
+}

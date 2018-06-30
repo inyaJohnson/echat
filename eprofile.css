@@ -1,0 +1,50 @@
+
+/* eProfile navbar*/
+
+.liStyle{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+    color: white;
+    /*background-color: #0f0f0f;*/
+}
+
+
+.liStyle:hover{
+    background-color: black;
+    color: #00b3ee;
+}
+
+
+input[type=text]:focus{
+    border: black solid thin;
+}
+
+
+.glyphicon, .fa{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+
+.profile{padding: 10px;
+    margin: 5px;
+    line-height: 10px;
+    font-size: large;
+    font-weight: bold;
+
+
+}
+/*footer design*/
+#footer{
+    background-color: black;
+    color: #f7f7f7;
+    min-height: 100px;
+
+}
+
+@media(min-width: 992px){
+    #xs-footer{display: none;}
+}
+
